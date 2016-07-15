@@ -1,0 +1,65 @@
+#navcolor a.navbar-brand{
+  padding: 5px 20px;
+}
+#navcolor img{
+  width: 100px;
+  height: 40px;
+}
+#navcolor{
+  margin-top: 20px;
+  background: rgba(0,0,0,0.4);
+  margin-top: 0;
+}
+#tabcolor li a {
+  -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+  font-family:Open Sans;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+.navbar-nav>li>.dropdown-menu
+{
+  background: rgba(0,0,0,0.7);
+}
+a#removebak.dropdown-toggle, #tabcolor li a.txtcolor{
+    color: #4f442b;
+}
+
+#black{
+  background: black;
+}
+/*.ico, .locname{
+  float: left;
+}*/
+div.icon{
+  width:80%
+}
+.cent{
+  text-align: center;
+}
+p.locname{
+  padding-left: 2%;
+  text-align: center;
+  margin-top: 3%;
+
+}
+.param{
+  text-align: center;
+  margin-top: 2%;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.param p.locname{
+  text-align: center;
+}
+ .ico{
+   margin-left: 0;
+   margin-top: 5%;
+ }
+.col_update{
+width: 44%;
+margin: 0 3%;
+margin-top: 2%;
+}

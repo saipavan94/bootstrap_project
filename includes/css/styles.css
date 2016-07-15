@@ -64,8 +64,6 @@ ul.dropdown-menu {
 body{
 -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
-
-
 }
 .well .page-header{
   margin-top: 0;
@@ -206,11 +204,15 @@ ul.unstyled {
   #vcenter {
       margin-top: 20%;
     }
+    .foo{
+    margin-top: 35%;
+    }
 }
 @media (max-width:992px) {
 
 .navbar-nav>li>a.dropdown-toggle{
   padding: 15px 15px;
+}
   #vcenter {
       margin-top: 15%;
     }
@@ -222,6 +224,7 @@ ul.unstyled {
   #big_title  {
     font-size: 35px;
   }
+
 }
 
 
@@ -237,6 +240,7 @@ ul.unstyled {
 #vcenter {
     margin-top: 35%;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -252,8 +256,11 @@ ul.unstyled {
     margin-top: 40px;
   }
   .foo{
-    margin-top: 35%;
+    margin-top: 55%;
     font-size: 10px;
+  }
+  a .option{
+    background: rgba(0,0,0,0.6);
   }
 
 
