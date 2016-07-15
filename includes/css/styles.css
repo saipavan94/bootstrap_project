@@ -1,18 +1,4 @@
-/*
 
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
-
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
   #bak{
   background:url("../../images/home.jpg") no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -31,7 +17,8 @@ Notes:	 Hand coded for Udemy.com
 }
 #navcolor{
   margin-top: 20px;
-  background: none;
+  background: rgba(0,0,0,0.3);
+  margin-top: 0;
 }
 
 
@@ -62,31 +49,23 @@ ul.dropdown-menu {
 }
 #navcolor2 li a{
   -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
+  text-rendering: optimizelegibility;
   color: #8b836e;
   line-height: 20px;
   font-weight: 400;
   font-style: normal;
 
 }
-#centcontent{
-  background: rgba(0,0,0,0.5);
-  border-radius: 10px;
-}
-#centcontent1{
-
-  float: none;
-  margin: 0 auto;
+.circleboder{
+  border-radius: 10%;
+  border: 2px solid white;
 }
 
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
 body{
 -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
+
+
 }
 .well .page-header{
   margin-top: 0;
@@ -95,85 +74,224 @@ body{
   margin-top: 0;
 }
 #vcenter{
-position: absolute;
- top: 35%;
- width: 100%;
+     margin-top: 18%;
 }
 
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
+
      #searchInput{
      width: 200px;
     }
    .navbar-brand{
     padding: 14px 15px;
     }
-#size{
-  font-size: 50px;
-  color: white;
-  height: 40vh;
-}
+    #small_title {
+      text-align: center;
+      font-size: 20px;
+      font-family:"Century Gothic", sans-serif ;
+    font-weight: 300;
+    color:white;
+    opacity: 0.7;
+    }
+
 .iconcolor{
-  color:white;
   font-size: 40px;
   font-weight: 800;
   text-align:center;
 }
-/* --------------------------------------
-   Carousel
-
-
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-
-
-
-
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
-/* Portrait & landscape phone */
-
-
-@media(max-width: 480px) {
-
-#vcenter {
-position: absolute;
- top: 45%;
- width: 100%;
-  }
-
-
+#big_title  {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+}
+.page-header{
+  border-bottom: none;
 }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-  .carousel-caption{
-    font-size: 16px;
-  }
-  .carousel-caption h4{
-    font-size: 22px;
-  }
+.iconcolor a {
+  color: #fff;
+  text-decoration: none;
 
 }
-/* Large desktop */
+.navbar{
+  background: rgba(0, 0, 0, 0.5);
+
+}
+.navbar-fixed-top{
+    margin-top: 0;
+}
+
+.option{
+text-align: center;
+color: white;
+border: 2px solid #5f5743;
+-webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+font-family:Open Sans;
+color: white;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 800;
+font-size: 17px;
+border-radius: 10%;
+}
+
+ a .option{
+  color: #5f5743;
+  text-decoration: none;
+  font-size: 20px;
+  background: rgba(0,0,0,0.2);
+}
+#car{
+  display: none;
+}
+#bike{
+display: none;
+}
+.foo{
+margin-top: 10%;
+background: rgba(0, 0, 0, 0.3);
+text-align: center;
+color: white;
+}
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+  color: white;
+}
+#CONTENT1{
+  display: none;
+
+}
+#CONTENT2{
+  display: none;
+
+}
+.hea{
+  color:#5f5743;
+}
+.unstyled li a{
+  color: white;
+}
+
+
 @media (min-width: 1200px) {
-  #myCarousel .item {
-    height: 500px;
-  }
-}
-@media (max-width:767px) {
 
-.navbar-nav>li>a.dropdown-toggle{
-  padding: 15px 5px;
+  .iconcolor{
+
+    font-size: 80px;
+
+  }
+  #vcenter {
+      margin-top: 10%;
+    }
+    .foo{
+      margin-top: 22%;
+    }
+
+
 }
+
+
+@media (max-width: 1199px) {
+
+  .iconcolor{
+
+    font-size: 80px;
+
+  }
+  #vcenter {
+      margin-top: 20%;
+    }
 }
 @media (max-width:992px) {
 
 .navbar-nav>li>a.dropdown-toggle{
-  padding: 15px 5px;
+  padding: 15px 15px;
+  #vcenter {
+      margin-top: 15%;
+    }
 }
+  .iconcolor{
+
+    font-size: 70px;
+  }
+  #big_title  {
+    font-size: 35px;
+  }
+}
+
+
+
+@media (max-width:767px) {
+
+.navbar-nav>li>a.dropdown-toggle{
+  padding: 15px 15px;
+}
+.navbar-collapse{
+  background: rgba(0, 0, 0, 0.7);
+}
+#vcenter {
+    margin-top: 35%;
+  }
+}
+
+@media (max-width: 768px) {
+  .iconcolor{
+
+    font-size: 60px;
+
+  }
+  .topalign{
+    margin-top: 30px;
+  }
+  .innermargin{
+    margin-top: 40px;
+  }
+  .foo{
+    margin-top: 35%;
+    font-size: 10px;
+  }
+
+
+
+
+}
+@media(max-width: 480px) {
+#vcenter {
+    margin-top: 25%;
+  }
+  .iconcolor{
+    font-size: 25px;
+  }
+  #big_title  {
+    font-size: 22px;
+  }
+  .topalign{
+    margin-top: 10px;
+  }
+  #car{
+    margin-top: 30px;
+
+  }
+  #bike{
+  margin-top: 30px;
+
+  }
+  .foo{
+    margin-top: 50%;
+    font-size: 10px;
+  }
+
+}
+#CONTENT1{
+  display: none;
+  margin-top: 10%;
+}
+#CONTENT2{
+  display: none;
+  margin-top: 10%;
 }
