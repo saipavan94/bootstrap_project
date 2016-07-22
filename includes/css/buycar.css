@@ -7,7 +7,7 @@
 }
 #navcolor{
   margin-top: 20px;
-  background: rgba(0,0,0,0.4);
+  background:rgba(0, 0, 0, 0.8);
   margin-top: 0;
 }
 #tabcolor li a {
@@ -24,15 +24,8 @@
   background: rgba(0,0,0,0.7);
 }
 a#removebak.dropdown-toggle, #tabcolor li a.txtcolor{
-    color: #4f442b;
+    color: white;
 }
-
-#black{
-  background: black;
-}
-/*.ico, .locname{
-  float: left;
-}*/
 div.icon{
   width:80%
 }
@@ -42,17 +35,20 @@ div.icon{
 p.locname{
   padding-left: 2%;
   text-align: center;
-  margin-top: 3%;
-
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .param{
   text-align: center;
   margin-top: 2%;
   border: 1px solid black;
-  border-radius: 15px;
 }
-.param p.locname{
-  text-align: center;
+.padd{
+  padding: 0;]
+  margin-top: 15%;
+}
+div.col-xs-2.padd{
+    margin-top: 5%;
 }
  .ico{
    margin-left: 0;
@@ -62,4 +58,126 @@ p.locname{
 width: 44%;
 margin: 0 3%;
 margin-top: 2%;
+}
+.contactcol{
+  margin-top: 2%;
+  border-radius: 15px;
+}
+
+.bod{
+  padding: 0 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 5 10px;
+  width: 45%;
+  margin: 1% 2.5%;
+
+}
+.foo{
+margin-top: 10%;
+background: rgba(0, 0, 0, 0.8);
+text-align: center;
+color: white;
+}
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+  color: white;
+}
+.hea{
+  color: white;
+}
+.unstyled li a{
+  color: white;
+}
+#removebak:target{
+  background: black;
+}
+.specs li{
+  display: inline;
+  font-family: 'Signika', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  overflow: hidden;
+  margin-left: 3%;
+  color: #666;
+}
+.specs li:before{
+  content: ">";
+}
+.list{
+float: left;
+width: 150px;
+height: 25px;
+}
+
+.icon{
+  padding-top:3%;
+  margin-left: 1%;
+}
+p.col-xs-8{
+  padding: 0;
+  font-size: 11px;
+}
+
+.topmar{
+  margin-top: 5%;
+}
+p.big{
+  text-align: center;
+}
+#marlef{
+  margin-left: 25%;
+}
+.img{
+margin: auto;
+max-height: 200px;
+
+}
+.carousel-inner
+{
+  height: 200px;
+}
+@media (min-width: 1200px) {
+    .foo{
+      margin-top: 22%;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .foo{
+    margin-top: 35%;
+    }
+}
+@media (max-width:992px) {
+
+
+}
+
+
+
+@media (max-width:767px) {
+
+
+}
+
+@media (max-width: 768px) {
+  .foo{
+    margin-top: 55%;
+    font-size: 10px;
+  }
+  div.icon.col-xs-12{
+    padding: 0;
+  }
+  i.col-xs-4{
+    padding: 0;
+  }
+}
+@media(max-width: 480px) {
+  .foo{
+    margin-top: 50%;
+    font-size: 10px;
+  }
+
 }
